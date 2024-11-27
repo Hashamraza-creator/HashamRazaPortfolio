@@ -1,0 +1,143 @@
+.skills-page {
+    background-color: black; /* Dark background */
+    color: white; /* White text color */
+    padding: 50px 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .skills-page h1 {
+    font-size: 3rem;
+    margin-bottom: 50px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    left: -20px;
+  }
+  
+  .skills-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid layout */
+    gap: 30px;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .skill-card {
+    background-color: black;
+    border-radius: 50%; /* Makes the card circular */
+    padding: 30px; /* Increase padding to make the circle bigger */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    text-align: center;
+    width: 200px; /* Set a fixed width and height for the circle */
+    height: 200px; /* Equal height to width to maintain a perfect circle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  
+    &:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+    }
+  
+    .skill-name {
+      margin-bottom: 193px;
+  
+      h3 {
+        font-size: 1.2rem;
+        font-weight: 600;
+        letter-spacing: 1px;
+        text-align: center;
+        color: white;
+        left: -20px;
+      }
+    }
+  
+ 
+    .progress-circle {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 160px; /* Size of the loader */
+      height: 160px; /* Ensure the loader is perfectly circular */
+      border-radius: 50%;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      .inner-circle {
+        width: 130px; /* Inner circle size */
+        height: 130px;
+        border-radius: 50%;
+        background-color: black;
+        position: absolute;
+
+      }
+  
+      /* Percentage Text (Centered in Circle) */
+      p {
+        position: absolute;
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-align: center;
+        left: 66px;
+      }
+    }
+  
+    /* Text Above the Circle */
+    .text-above {
+      position: absolute;
+      top: -20px; /* Position the text above the circle */
+      font-size: 1rem;
+      font-weight: 500;
+      color: white;
+    }
+  
+    p {
+      margin-top: 10px;
+      font-size: 1rem;
+      font-weight: 500;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .skills-page {
+      padding: 30px 15px;
+    }
+  
+    .skills-page h1 {
+      font-size: 2.5rem;
+    }
+  
+    .skills-list {
+      grid-template-columns: 1fr; /* Single column for smaller screens */
+    }
+  
+    .skill-card {
+      padding: 20px;
+      width: 180px; /* Smaller circle on mobile */
+      height: 180px;
+    }
+  
+    .progress-circle {
+      width: 140px; /* Adjust progress circle size for mobile */
+      height: 140px;
+    }
+  
+    .inner-circle {
+      width: 110px; /* Adjust inner circle for mobile */
+      height: 110px;
+    }
+  }
+  
