@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/HashamRazaPortfolio/static/css/main.f606ea8c.css",
+    "main.js": "/HashamRazaPortfolio/static/js/main.cc51b68d.js",
+    "static/js/453.a3c0c216.chunk.js": "/HashamRazaPortfolio/static/js/453.a3c0c216.chunk.js",
+    "static/media/mypic.png": "/HashamRazaPortfolio/static/media/mypic.1cb82bf504b6b8d91edb.png",
+    "static/media/hashamraza.png": "/HashamRazaPortfolio/static/media/hashamraza.eb1fe53a63ee8663739c.png",
+    "static/media/asham raza.png": "/HashamRazaPortfolio/static/media/asham raza.e59f8b3d0f7425b9dc92.png",
+    "static/media/helvetica-neu.ttf": "/HashamRazaPortfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/LaBelleAurore.woff2": "/HashamRazaPortfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/CoolveticaRg-Regular.woff2": "/HashamRazaPortfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/HashamRazaPortfolio/index.html",
+    "main.f606ea8c.css.map": "/HashamRazaPortfolio/static/css/main.f606ea8c.css.map",
+    "main.cc51b68d.js.map": "/HashamRazaPortfolio/static/js/main.cc51b68d.js.map",
+    "453.a3c0c216.chunk.js.map": "/HashamRazaPortfolio/static/js/453.a3c0c216.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f606ea8c.css",
+    "static/js/main.cc51b68d.js"
+  ]
+}
