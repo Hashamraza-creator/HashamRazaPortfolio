@@ -10,7 +10,10 @@ import {
 import Loader from 'react-loaders';
 import AnimatedLetters from '../AnimatedLetters';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import './index.scss'
+import aboutImage from '../../assets/hashamport.png';
+
+
+import './index.scss';
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate');
@@ -46,6 +49,25 @@ const About = () => {
             father of a beautiful daughter, sports fanatic, photography enthusiast,
             and tech-obsessed!
           </p>
+          <p>
+            Hello! I'm Hasham Raza, a passionate and ambitious Front-End Developer with a strong foundation in web development, UI/UX design, and mobile app development. I specialize in creating engaging and intuitive user experiences using modern technologies like React, Angular, Swift, and Figma.
+          </p>
+          <br />
+          <p>
+            I am always eager to learn and grow, constantly refining my skills to stay up-to-date with the latest industry trends. Whether it's crafting pixel-perfect interfaces, optimizing performance, or designing user-friendly solutions, I approach every project with a focus on quality and usability.
+
+            In addition to my technical expertise, I have a keen eye for design, which helps me bridge the gap between function and aesthetics. I believe in creating seamless and visually appealing applications that provide users with smooth and enjoyable experiences.
+          </p>
+          <br />
+          <p>
+            I'm excited to collaborate with talented individuals and contribute my skills to innovative projects that push the boundaries.
+          </p>
+        </div>
+
+       
+        <div className="about-image">
+        <img src={aboutImage} alt="About Me" />
+
         </div>
 
         <div className="stage-cube-cont">

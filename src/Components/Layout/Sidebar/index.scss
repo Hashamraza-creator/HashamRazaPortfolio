@@ -120,6 +120,13 @@ a.skill-link{
         
             }
 }
+a.project-link{
+    &:after{
+
+        content: 'Projects';
+        
+            }
+}
 a.linkedin-link::after {
     content: 'LinkedIn';
   }

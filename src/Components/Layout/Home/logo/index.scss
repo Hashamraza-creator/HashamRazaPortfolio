@@ -26,10 +26,11 @@
     width: 350px;  /* Circle size */
     height: 350px; /* Circle size */
     border-radius: 50%;  /* Make the shape a circle */
-    border: 5px solid #fff;  /* Border around the circle */
+    border: 5px solid red;  /* Border around the circle */
     background-color: transparent;
     opacity: 0.5;
     transform: translate(-50%, -50%);  /* Center the circle */
     margin-right: 20px;  /* Add some right margin to move circle away from the image */
+    
   }
   

@@ -83,5 +83,29 @@
     83% {
       transform: rotateX(90deg);
     }
+
+    
   }
+  .about-image {
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 130px 0;
+      width: 111%; /* Set the desired width */
+      height: auto; /* Maintain aspect ratio */
+      padding: 111px;
+    img {
+      width: 300px; /* Adjust size */
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+   
+    .about-image img {
+      width: 100%; /* Make the image responsive within the container */
+      height: auto; /* Maintain aspect ratio */
+    }
+    
+  }
+  
   

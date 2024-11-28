@@ -26,7 +26,7 @@ const Home = () => {
         <div className="container home-page">
             <div className="text-zone">
                 <h1>
-                    {/* Animated letters for "Hi, I'm" */}
+                    
                     <span className={`${letterClass} _12`}>H</span>
                     <span className={`${letterClass} _13`}>i,</span>
                     <br />
@@ -52,7 +52,7 @@ const Home = () => {
                 <Link to="/contact" className="flat-button">
                     Contact Me
                 </Link>
-                <a href="/path/to/your/cv.pdf" download className="download-cv flat-button">
+                <a href="../../../assets/Hasham Raza's cv 6.pdf" download className="download-cv flat-button">
   Download CV
 </a>
 
