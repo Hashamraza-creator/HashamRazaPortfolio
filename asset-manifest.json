@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Hashamraza-creator/HashamRazaPortfolio/static/css/main.d9233d89.css",
+    "main.js": "/Hashamraza-creator/HashamRazaPortfolio/static/js/main.0841d74a.js",
+    "static/js/453.a3c0c216.chunk.js": "/Hashamraza-creator/HashamRazaPortfolio/static/js/453.a3c0c216.chunk.js",
+    "static/media/hashamport.png": "/Hashamraza-creator/HashamRazaPortfolio/static/media/hashamport.a856f99f3b2042deece0.png",
+    "static/media/mypic.png": "/Hashamraza-creator/HashamRazaPortfolio/static/media/mypic.1cb82bf504b6b8d91edb.png",
+    "static/media/e-commerce.webp": "/Hashamraza-creator/HashamRazaPortfolio/static/media/e-commerce.fef15d9295b3e79f6596.webp",
+    "static/media/hashamraza.png": "/Hashamraza-creator/HashamRazaPortfolio/static/media/hashamraza.eb1fe53a63ee8663739c.png",
+    "static/media/2ndplace.jpeg": "/Hashamraza-creator/HashamRazaPortfolio/static/media/2ndplace.c728977333a410dbd2f4.jpeg",
+    "static/media/diversity.png": "/Hashamraza-creator/HashamRazaPortfolio/static/media/diversity.e187eb5629189d8dfc21.png",
+    "static/media/asham raza.png": "/Hashamraza-creator/HashamRazaPortfolio/static/media/asham raza.e59f8b3d0f7425b9dc92.png",
+    "static/media/helvetica-neu.ttf": "/Hashamraza-creator/HashamRazaPortfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/my.jpeg": "/Hashamraza-creator/HashamRazaPortfolio/static/media/my.7a4ef3576d2c187409ac.jpeg",
+    "static/media/LaBelleAurore.woff2": "/Hashamraza-creator/HashamRazaPortfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/CoolveticaRg-Regular.woff2": "/Hashamraza-creator/HashamRazaPortfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/Hashamraza-creator/HashamRazaPortfolio/index.html",
+    "main.d9233d89.css.map": "/Hashamraza-creator/HashamRazaPortfolio/static/css/main.d9233d89.css.map",
+    "main.0841d74a.js.map": "/Hashamraza-creator/HashamRazaPortfolio/static/js/main.0841d74a.js.map",
+    "453.a3c0c216.chunk.js.map": "/Hashamraza-creator/HashamRazaPortfolio/static/js/453.a3c0c216.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d9233d89.css",
+    "static/js/main.0841d74a.js"
+  ]
+}
