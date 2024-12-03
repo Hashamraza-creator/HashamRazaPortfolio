@@ -18,25 +18,25 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    // Check if the form is being submitted
+    
     console.log('Form submitted');
 
-    // Send email using EmailJS
+    
     emailjs
       .sendForm(
-        'service_0al8fz8', // Your service ID
-        'template_1z3evrm', // Your template ID
-        form.current, // Form reference
-        'QS7jMOJeUoFV4cRtjiubZ' // Your user token
+        'service_0al8fz8', 
+        'template_1z3evrm', 
+        form.current, 
+        'QS7jMOJeUoFV4cRtjiubZ' 
       )
       .then(
         (result) => {
           console.log('Email sent successfully:', result);
           alert('Message successfully sent!');
-          window.location.reload(false); // Reload the page after successful submission
+          window.location.reload(false); 
         },
         (error) => {
-          console.error('Failed to send email:', error); // Log error to console for debugging
+          console.error('Failed to send email:', error); 
           alert('Failed to send the message, please try again');
         }
       );
